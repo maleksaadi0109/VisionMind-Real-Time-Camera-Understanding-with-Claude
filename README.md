@@ -1,2 +1,17 @@
-# VisionMind-Real-Time-Camera-Understanding-with-Claude
-VisionMind is an AI system that connects a live camera feed to a computer vision model (like YOLOv8, OpenCV, or CLIP) and then uses Claude to interpret what’s happening in natural language. The vision model extracts objects, actions, or scene descriptions, then Claude refines that into human-friendly answers, explanations
+# 👁️ Vision Interpreter
+
+A Python system that **interprets outputs from computer vision models** and generates natural language scene descriptions.  
+It can also detect **unusual or suspicious activity** and produce structured reports.
+
+---
+
+## ✨ Features
+- 📝 **Summary**: Generates a quick overview of the scene.  
+- 📖 **Detailed Description**: Describes people, objects, and actions.  
+- 🔍 **Contextual Analysis**: Adds real-world context (e.g., public area, residential).  
+- 🚨 **Suspicion Detection**: Flags unusual or suspicious patterns (e.g., person running at night, smoke detected).  
+- 📊 **Formatted Reports**: Clean text-based reports for easy reading.  
+
+---
+
+## 📂 Project Structure
